@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #151515;
+}
+
+.container{
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1919px){
+    .container{
+        max-width: 1170px;
+    }
+}
+
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px 0;
+}
+
+input:focus::placeholder{
+    opacity: 0;
+}
+
+p, label{
+    color: #fff;
+}

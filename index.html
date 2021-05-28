@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="container">
+            <div class="form">
+               <form action="" method="POST" id="form">
+
+                <!--Name-->
+                <label for="name">Name</label>
+                <input type="text" placeholder="Your Name" id="name" name="name">
+
+                <!--Email-->
+                <label for="email">Email</label>
+                <input type="email" placeholder="Your email" id="email" name="email">
+
+                <!--Phone-->
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="Your phone" id="phone" name="phone">
+
+                <!--Favourite color-->
+                <label for="color">Please select your favourite color:</label>
+                <select name="color" id="color">
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                </select>
+
+                <!--Gender-->
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="nts">Prefer not to specify</label>
+                <input type="radio" name="gender" value="nts" id="nts">
+
+                <!--Robot-->
+                <label for="robot">Confirm that you are not a robot</label>
+                <input type="checkbox" value="Not a robot" id="robot">
+
+                <!--Submit-->
+                <button type="submit">Send</button>
+
+
+               </form>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
