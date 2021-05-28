@@ -21,10 +21,7 @@ function init() {
             method: 'POST',
             body: data
         })
-            .then(res => {
-                console.log(res);
-                res.text()
-            })
+            .then(res => res.text())
             .then(data => {
                 console.log(data);
             })
