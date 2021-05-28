@@ -9,7 +9,7 @@ function init() {
     form.addEventListener('submit', function (e) {
         e.preventDefault()
 
-        sendData()
+        sendData(this)
 
     })
 
